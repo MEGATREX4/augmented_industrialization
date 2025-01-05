@@ -18,11 +18,14 @@ public class AugmentedIndustrialization implements ModInitializer {
 		LOGGER.info("Initializing Augmented Industrialization Mod: " + MOD_ID);
 
 		// Register the new cable tiers
-		CustomCableTiers.registerCableTiers();
-		registerBlocks();
+        try {
+            CustomCableTiers.injectIVPlusTier();
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
+        registerBlocks();
 		registerHatches();
 		CreativeTabRegistry.register();
-		// Log the successful registration of the cable tiers
-		LOGGER.info("IVPlus CableTier added successfully!");
+
 	}
 }

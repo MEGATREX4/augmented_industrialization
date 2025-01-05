@@ -29,6 +29,8 @@ public class CreativeTabRegistry {
         // Add items to the custom tab
         ItemGroupEvents.modifyEntriesEvent(AUGMENTED_INDUSTRIALIZATION_KEY).register(entries -> {
             entries.add(Registries.ITEM.get(CasingRegistry.IV_PLUS_MACHINE_HULL.getValue()));
+            addItemByIdentifier(entries, "modern_industrialization:iv_plus_ev_transformer");
+            addItemByIdentifier(entries, "modern_industrialization:ev_iv_plus_transformer");
             addItemByIdentifier(entries, "modern_industrialization:superconductor_iv_plus_transformer");
             addItemByIdentifier(entries, "modern_industrialization:iv_plus_superconductor_transformer");
             addItemByIdentifier(entries, "modern_industrialization:iv_plus_storage_unit");

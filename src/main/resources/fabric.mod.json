@@ -3,14 +3,15 @@
 	"id": "augmented_industrialization",
 	"version": "${version}",
 	"name": "Augmented Industrialization",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Augmented Industrialization is a Minecraft mod that enhances industrial gameplay with advanced machines, automation, and unique blocks, offering new textures and particle effects for a deeper tech progression experience.",
 	"authors": [
 		"MEGATREX4"
 	],
 	"contact": {
-		"homepage": "https://megatrex4.netlify.app/"
+		"homepage": "https://megatrex4.netlify.app/",
+		"sources": "https://github.com/MEGATREX4/augmented_industrialization"
 	},
-	"license": "CC0-1.0",
+	"license": "MEGATREX4 LICENSE",
 	"icon": "assets/augmented_industrialization/icon.png",
 	"environment": "*",
 	"entrypoints": {

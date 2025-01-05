@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube",
+  "particle": "augmented_industrialization:block/iv_plus_machine_hull",
+  "textures": {
+    "north": "augmented_industrialization:block/iv_plus_machine_hull",
+    "south": "augmented_industrialization:block/iv_plus_machine_hull",
+    "west": "augmented_industrialization:block/iv_plus_machine_hull",
+    "east": "augmented_industrialization:block/iv_plus_machine_hull",
+    "up": "augmented_industrialization:block/iv_plus_machine_hull",
+    "down": "augmented_industrialization:block/iv_plus_machine_hull",
+    "particle": "augmented_industrialization:block/iv_plus_machine_hull"
+  }
+}
